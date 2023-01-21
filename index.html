@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Texto</title>
+  <link rel="shortcut icon" href="./img/icono.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Montserrat:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/bba3a726a3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="img/Logo.png" alt="logo">
+    </div>
+
+  </header>
+
+  <main class="contenedor">
+
+    <section class="panel-entrada">
+      <textarea class="input_text" cols="40" rows="8" placeholder="Ingrese el texto aquí" autofocus></textarea>
+
+      <p class="aviso"><i class="fa-solid fa-circle-exclamation"></i>Solo letras minúsculas y sin acentos.</p>
+      <div class="btns">
+        <button class="encript" onclick="encriptar();">Encriptar</button>
+        <button class="descript" onclick="desencriptar();">Desencriptar</button>
+      </div>
+    </section>
+
+    <section class="panel-salida">
+      <textarea class="output_text" cols="10" rows="8"></textarea>
+      <div class="mensaje">
+        <p>Ningún mensaje fue encontrado</p>
+        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+      <button class="copiar" onclick="copiarTxt();">Copiar</button>
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div class="top-footer">
+      <div class="iconos">
+        <a href="https://github.com/rodys2003" target="_blank" class="github"><i class="fa-brands fa-github"></i></a>
+      </div>
+
+      <div class="iconos">
+        <a href="https://www.linkedin.com/in/rodys-rodriguez-b0460b1aa/" target="_blank" class="linkedin"><i
+            class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="bottom-footer">
+      <p> &copy; Sitio diseñado por Rodys Rodriguez Reto Alura Latam 2023</p>
+    </div>
+  </footer>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

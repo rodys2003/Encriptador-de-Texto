@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+.logo {
+  position: absolute;
+  margin: 2% 0 0 2%;
+}
+
+.contenedor {
+  width: 100%;
+  display: flex;
+}
+
+.panel-entrada {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input_text {
+  width: 80%;
+  margin: 15% 0 0 15%;
+  font-size: 32px;
+  line-height: 45px;
+  background-color: transparent;
+  color: #0a3871;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.aviso {
+  margin: 0 40% 0.5% 0;
+  font-size: 14px;
+  line-height: 18px;
+  color: #495057;
+}
+
+.aviso i {
+  margin-right: 5px;
+}
+
+.btns {
+  width: 100%;
+
+}
+
+.encript {
+  width: 30%;
+  position: relative;
+  padding: 20px;
+  background: #0a3871;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 25px;
+  border: none;
+  margin-right: 10%;
+  cursor: pointer;
+}
+
+.encript:hover {
+  background: #ffffff;
+  color: #0a3871;
+  border: 1px solid #0a3871;
+  transform: scale(1.05);
+  transition: 400ms;
+}
+
+.descript {
+  width: 30%;
+  position: relative;
+  padding: 20px;
+  background: #ffffff;
+  color: #0a3871;
+  font-weight: 500;
+  border-radius: 25px;
+  border: 1px solid #0a3871;
+  cursor: pointer;
+}
+
+.descript:hover {
+  background: #0a3871;
+  color: #ffffff;
+  transform: scale(1.05);
+  transition: 400ms;
+}
+
+.panel-salida {
+  width: 30%;
+  height: 600px;
+  margin: 2%;
+  background: #ffffff;
+  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.output_text {
+  width: 80%;
+  margin-top: 15%;
+  font-size: 24px;
+  line-height: 35px;
+  color: #0a3871;
+  background-image: url(img/Muñeco.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.mensaje {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.mensaje p:first-child {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.mensaje p:last-child {
+  color: #495057;
+}
+
+.copiar {
+  width: 50%;
+  position: relative;
+  margin-top: 40%;
+  padding: 20px;
+  background: #ffffff;
+  color: #0a3871;
+  font-weight: 500;
+  border-radius: 25px;
+  border: 1px solid #0a3871;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.copiar:hover {
+  background: #0a3871;
+  color: #ffffff;
+  transform: scale(1.05);
+  transition: 400ms;
+}
+
+footer {
+  width: 100%;
+  background: #0a3871;
+  padding-bottom: 10px;
+}
+
+.top-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.iconos a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #0a3871;
+  color: #fff;
+  margin: 10px;
+  text-align: center;
+}
+
+.iconos i {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.bottom-footer {
+  width: 100%;
+  text-align: center;
+}
+
+.bottom-footer p {
+  font-size: 12px;
+  color: #fff;
+}
+
+@media (max-width: 770px) {
+
+  .logo img {
+    height: 40px;
+  }
+
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .panel-entrada {
+    width: 100%;
+  }
+
+  .input_text {
+    font-size: 30px;
+  }
+
+  .aviso {
+    margin-right: 45%;
+    font-size: 12px;
+  }
+
+  .encript {
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  .descript {
+    width: 40%;
+  }
+
+  .panel-salida {
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+  }
+
+  .output_text {
+    height: 65%;
+    margin-top: 2%;
+    font-size: 22px;
+    background-image: none;
+  }
+
+  .mensaje {
+    position: relative;
+    width: 100%;
+    bottom: 42%;
+  }
+
+  .copiar {
+    width: 80%;
+    padding: 10px;
+    margin-top: auto;
+  }
+
+}
+
+@media (max-width:420px) {
+
+  .logo {
+    top: 2%;
+  }
+
+  .input_text {
+    margin: 20% 0 0 0;
+    font-size: 24px;
+  }
+
+  .input_text::placeholder {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .aviso {
+    margin-right: 35%;
+  }
+
+  .encript {
+    width: 90%;
+    margin: 10px 0 20px 0;
+  }
+
+  .descript {
+    width: 90%;
+    margin-bottom: 5%;
+  }
+
+  .mensaje {
+    bottom: 50%;
+  }
+}
