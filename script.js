@@ -64,14 +64,13 @@ function copiarTxt() {
   let copiatxt = output_text.value;
   navigator.clipboard.writeText(copiatxt);
   alert("Texto copiado");
- // clear();
+  clear();
 
 }
 
-/*
 function clear() {
   output_text.value = "";
   input_text.value = "";
   mensaje.hidden = false;
   copiar.style.visibility = "hidden";
-}*/
+}
