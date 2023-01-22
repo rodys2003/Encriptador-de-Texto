@@ -67,7 +67,6 @@ function copiarTxt () {
 
   output_text.value = "";
   input_text.value = "";
-  output_text.style.backgroundImage = "url(img/Muñeco.png)";
   mensaje.hidden = false;
   copiar.style.visibility = "hidden";
 }

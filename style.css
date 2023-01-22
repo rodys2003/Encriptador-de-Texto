@@ -190,7 +190,7 @@ footer {
   color: #fff;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 900px) {
 
   .logo img {
     height: 40px;
@@ -250,7 +250,7 @@ footer {
 
 }
 
-@media (max-width:420px) {
+@media (max-width:600px) {
 
   .logo {
     top: 2%;
