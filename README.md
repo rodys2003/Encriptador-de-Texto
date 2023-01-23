@@ -36,5 +36,5 @@ El resultado debe ser mostrado en la pantalla.
 - JavaScript
 
 ## Contacto y GitHub Pages del proyecto
-Si deseas ver el proyecto antes de descargarlo miralo aquí: [GitHub Pages](https://rodys2003.github.io/Encriptador-de-Texto/)
-Si tienes alguna duda o Feedback puedes contactarme aquí: [Linkedin](www.linkedin.com/in/rodys-rodriguez)
+- Si deseas ver el proyecto antes de descargarlo miralo aquí: [GitHub Pages](https://rodys2003.github.io/Encriptador-de-Texto/)
+- Si tienes alguna duda o Feedback puedes contactarme aquí: [Linkedin](https://www.linkedin.com/in/rodys-rodriguez/)
